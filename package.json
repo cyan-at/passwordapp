@@ -1,19 +1,50 @@
 {
-  "name": "passwordapp",
+  "name": "",
   "version": "1.0.0",
-  "description": "password app",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">=18.18.0 <19.0.0",
+    "npm": ">= 6.0.0"
   },
-  "author": "Charlie Yan",
-  "license": "ISC",
+  "nodemonConfig": {
+    "ignore": [
+      "config/"
+    ]
+  },
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyan-at/passwordapp.git"
+    "url": ""
   },
-  "bugs": {
-    "url": "https://github.com/cyan-at/passwordapp/issues"
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
   },
-  "homepage": "https://github.com/cyan-at/passwordapp#readme"
+  "contributors": [],
+  "scripts": {
+    "startDev": "nodemon ./main.js --watch main.js models",
+    "start": "node ./main.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.37.1",
+    "sequelize-cli": "^6.6.2"
+  },
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "nodemon": "^3.0.1"
+  }
 }
