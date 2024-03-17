@@ -1,0 +1,19 @@
+{
+  "name": "passwordapp",
+  "version": "1.0.0",
+  "description": "password app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charlie Yan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyan-at/passwordapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cyan-at/passwordapp/issues"
+  },
+  "homepage": "https://github.com/cyan-at/passwordapp#readme"
+}
